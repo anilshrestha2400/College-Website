@@ -82,66 +82,67 @@ nav .navigation ul li a:hover{
 }
 
 
-#home{
-    background-image: linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url("images/back1.jpg");
+#home .mySlides {
+    display: none;
+    
+}
+#home img {
+    width: 100%;}
+
+#home .mySlides img{
     width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 40px;
+    height: 90vh;
+}
+#home .slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
 }
 
-#home h2{
-    color: white;
-    letter-spacing: 1px;
-    font-size: 2.2rem;
+
+#home .text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
-#home p{
-    color: white;
-    line-height: 25px;
-    font-size: 0.9rem;
-    width: 50%;
+#home .numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-#home .btn{
-    margin-top: 30px;
-}
-#home a{
-    text-decoration: none;
-    font-size: 0.9rem;
-    padding: 13px 35px;
-    background-color: white;
-    font-weight: 600;
-    border-radius: 5px;
+#home .dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-#home a.blue{
-    color:white;
-    background: rgb(21, 21,100);
-    transition: 0.3s ease;
+#home .active {
+  background-color: #717171;
 }
 
-#home a.blue:hover{
-    color:rgb(21, 21,100);
-    background:white ;
+
+#home .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
-#home a.yellow{
-    color:white;
-    background: yellow;
-    transition: 0.3s ease;
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
-#home a.yellow:hover{
-    color:rgb(21, 21,100);
-    background:white ;
-}
 
 
 #features{
