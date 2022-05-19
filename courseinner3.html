@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <img src="images/c6.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-circle-xmark"></i>
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a href="notice.html">Notice and Events</a></li>
+                <li><a class="active" href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <section id="about-home">
+        <h2>BBA</h2>
+        
+    </section>
+
+    <section id="course-inner">
+        <div class="overview">
+            <img class="course-img" src="images/b1.jpg" alt="">
+            <div class="course-head">
+                <div class="c-name">
+                    <h2>BBA</h2>
+                    <p>Duration:4 years</p>
+                    <p>Timing:Morning</p>
+                </div>               
+            </div>
+            <h3>Instructor</h3>
+            <div class="tutor">
+                <img src="images/fe1.png" alt="">
+                <div class="tutor-det">
+                    <h5>Lionel Messi</h5>
+                    <p>BBA Teacher</p>
+                </div>
+            </div>
+            <hr>
+            <h3>Course Overview</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsum nisi est voluptatibus, id maiores consequatur alias qui minus earum a eius? Ratione itaque, sint optio quae ex quo atque.
+                <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ipsam fuga illo quae ipsa a error pariatur rem vitae est impedit repellendus commodi, molestias voluptatibus ratione ab officiis dolore iste.
+            </p>
+            <hr>
+            <h3>What you will learn</h3>
+            <div class="learn">
+                <p><i class="far fa-check-circle"></i>Coding</p>
+                <p><i class="far fa-check-circle"></i>Management</p>
+                <p><i class="far fa-check-circle"></i>Skills</p>
+
+            </div>
+
+        </div>
+
+        <div class="enroll">
+            <h3>This course includes:</h3>
+            <p><i class="fa-solid fa-diploma"></i>Quality Education</p>
+            <p><i class="fa-solid fa-book"></i>Package Books</p>
+            <p><i class="fa-solid fa-list-check"></i>Assignments</p>
+            <p><i class="fa-solid fa-user-graduate"></i>Certificate of completion</p>
+        </div>
+
+    </section>
+
+ 
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>About <span>College</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">Blog</a>
+                |
+                <a href="#">About</a>
+                |
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">© 2022 College Pvt. Ltd.</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                  <p><span>309 - Rupa Solitaire,
+                     Bldg. No. A - 1, Sector - 1</span>
+                    Maitighar, Kathmandu - 400710</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>01-2132527</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@eduonix.com">support@college.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the college</span>
+                We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <img src="images/c6.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-circle-xmark"></i>
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="notice.html">Notice and Events</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <section id="about-home">
+        <h2>About this college</h2>
+        
+    </section>
+
+    <section id="about-container">
+        <div class="about-img">
+            <img src="images/a.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Welocome to this college,Enhance your skills with best Courses</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laboriosam et quaerat repellat molestiae quasi quidem consectetur delectus? Natus veniam temporibus officiis? Eligendi necessitatibus dolor magnam ipsum, animi quasi rem!</p>
+            <div class="about-fe">
+                <img src="images/fe1.png" alt="">
+                <div class="fe-text">
+                    <h5>4+ Courses</h5>
+                    <p>you can choose what you want to read</p>
+                </div>
+            </div>
+            <div class="about-fe">
+                <img src="images/fe2.png" alt="">
+                <div class="fe-text">
+                    <h5>Lifetime access</h5>
+                    <p>you can choose what you want to read</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <p>Learning By Doing</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Scholarship Facility</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eum, nisi officiis error ipsum in veritatis aliquam incidunt enim aliquid. Mollitia modi, molestiae nemo suscipit nobis necessitatibus labore veritatis incidunt.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <h3>Quality Education</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eum, nisi officiis error ipsum in veritatis aliquam incidunt enim aliquid. Mollitia modi, molestiae nemo suscipit nobis necessitatibus labore veritatis incidunt.</p>
+            </div>
+            <div class="fea-box">
+                <i class="fas fa-award"></i>
+                <h3>Global Certificate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eum, nisi officiis error ipsum in veritatis aliquam incidunt enim aliquid. Mollitia modi, molestiae nemo suscipit nobis necessitatibus labore veritatis incidunt.</p>
+            </div>
+        </div>
+    </section>
+
+
+ 
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>About <span>College</span></h3>
+
+            <p class="footer-links">
+                <a href="#">Home</a>
+                |
+                <a href="#">Blog</a>
+                |
+                <a href="#">About</a>
+                |
+                <a href="#">Contact</a>
+            </p>
+
+            <p class="footer-company-name">© 2022 College Pvt. Ltd.</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                  <p><span>309 - Rupa Solitaire,
+                     Bldg. No. A - 1, Sector - 1</span>
+                    Maitighar, Kathmandu - 400710</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>01-2132527</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:support@eduonix.com">support@college.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the college</span>
+                We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
+</body>
+</html>
